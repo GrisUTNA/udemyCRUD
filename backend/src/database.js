@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const URI = "mongodb://localhost/prueba";
+//const URI = "mongodb://localhost/prueba";
+const URI = "mongodb+srv://prueba:prueba@cluster0.52iec.mongodb.net/crududemy";
 
 const connectDB=async()=>{
   try{
